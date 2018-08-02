@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Frames</title>
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+		<style type="text/css">
+			body {
+				background-color: #606c88;
+			}
+
+			canvas {
+				max-width: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div id="canvas-wrapper" class="text-center"></div>
+				</div>
+
+				<div class="col-12 col-md-6 py-4">
+					<input class="mx-2" id="input" type="file" name="file" accept="image/*">
+					<br>
+					<button class="btn btn-primary m-2 btn-size-change" data-size="small1">20 x 30</button>
+					<button class="btn btn-primary m-2 btn-size-change" data-size="small2">28 x 42</button>
+					<button class="btn btn-primary m-2 btn-size-change" data-size="big1">60 x 90</button>
+					<br>
+					<button class="btn btn-success m-2 btn-type-change" data-styles="blackClassic">Black Classic</button>
+					<button class="btn btn-success m-2 btn-type-change" data-styles="whiteClassic">White Classic</button>
+					<button class="btn btn-success m-2 btn-type-change" data-styles="blackAmerican">Black American</button>
+					<button class="btn btn-success m-2 btn-type-change" data-styles="whiteAmerican">White American</button>
+					<br>
+					<button class="btn btn-default m-2 btn-view-change" data-class="view-big">Big View</button>
+					<button class="btn btn-default m-2 btn-view-change" data-class="view-small">Small View</button>
+					<br>
+					<button class="btn btn-warning m-2" id="download">Download Image</button>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="./assets/js/jquery-3.2.1.min.js"></script>
+		<script src="./assets/js/popper.js"></script>
+		<script src="./assets/js/bootstrap.min.js"></script>
+		<script src="./assets/js/frames.js"></script>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
