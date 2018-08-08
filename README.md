@@ -3,6 +3,8 @@ Frames
 
 Pure js library for adding frames to images.
 
+Demo: http://frames.da4.info/
+
 ## Installation
 
 Add frames.js tag before your custom scrtipts.
